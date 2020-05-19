@@ -14,6 +14,7 @@ import com.valesites.cursomc.domain.Categoria;
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
+	
 	@RequestMapping(method = RequestMethod.GET)
 	public List<Categoria> listar() {
 		
